@@ -9,7 +9,7 @@
         <div class="text-center">
             <v-menu
               open-on-hover
-              top
+              bottom
               offset-y
             >
               <template v-slot:activator="{ on, attrs }">
