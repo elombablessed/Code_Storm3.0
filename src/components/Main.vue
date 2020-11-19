@@ -5,11 +5,9 @@
       >
         <v-layout 
         column
-        fill-height
-        align-center justify-center
         >
           <v-container>
-            <v-row justify="center">
+            <v-row style="height: 80vh;" class="fill-height" justify="center" align="center">
             <v-dialog
               v-model="dialog1"
               max-width="600px"
@@ -21,7 +19,7 @@
                   v-bind="attrs"
                   v-on="on"
                 >
-                  Open Dialog
+                  Register Now
                 </v-btn>
               </template>
               <v-card>
@@ -107,22 +105,20 @@
                 </v-card-actions>
               </v-card>
             </v-dialog>
-          </v-row>
-                    
+          </v-row> 
           </v-container>
+          <Events />  
         </v-layout>
-
-        
-        
+       
       </v-img>
 </template>
 
 <script>
-import PastEvent from './PastEvent'
+import Events from './Events'
   export default {
     name: 'Main',
     components:{
-      PastEvent,
+      Events,
     },
 
     data: () => ({

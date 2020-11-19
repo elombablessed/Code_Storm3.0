@@ -44,16 +44,6 @@
                         color="grey"
                       ><img :src="images" alt=""></v-list-item-avatar>
                     </v-list-item>
-
-                    <v-card-actions>
-                      <v-btn
-                        outlined
-                        rounded
-                        text
-                      >
-                        Button
-                      </v-btn>
-                    </v-card-actions>
               </v-card>
             </v-menu>
         </div>

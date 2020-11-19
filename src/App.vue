@@ -28,9 +28,9 @@
       </div>
 
       <v-spacer></v-spacer>
-      <Info title="Mission" titleMore="Our Mission" completeInfo="" images="https://cdn.vuetifyjs.com/images/profiles/marcus.jpg"/>
-      <Info title="Vision" titleMore="Our Vission" completeInfo="" images="https://cdn.vuetifyjs.com/images/profiles/marcus.jpg"/>
-      <Info title="Objectives" titleMore="Our Objectives" completeInfo="" images="https://cdn.vuetifyjs.com/images/profiles/marcus.jpg"/>
+      <Info title="Mission" titleMore="Our Mission" completeInfo="Lorem ipsum dolor sit amet, consectetur adipiscing elit," images="https://cdn.vuetifyjs.com/images/profiles/marcus.jpg"/>
+      <Info title="Vision" titleMore="Our Vission" completeInfo="Lorem ipsum dolor sit amet, consectetur adipiscing elit," images="https://cdn.vuetifyjs.com/images/profiles/marcus.jpg"/>
+      <Info title="Objectives" titleMore="Our Objectives" completeInfo="Lorem ipsum dolor sit amet, consectetur adipiscing elit," images="https://cdn.vuetifyjs.com/images/profiles/marcus.jpg"/>
     </v-app-bar>
 
     <v-main class="pt-0">
@@ -60,7 +60,7 @@ export default {
 };
 </script>
 
-    <style scoped>
+    <style>
       .glow {
         font-size: 30px;
         color: #ffffff;
