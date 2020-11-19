@@ -1,9 +1,9 @@
 <template>
   <v-card class="events">
     <v-card-title class="text-center justify-center py-6">
-      <h1 class="font-weight-bold display-3 blue--text">
+      <h2 class="font-weight-bold display-2 blue--text">
         EVENTS
-      </h1>
+      </h2>
     </v-card-title>
 
     <v-tabs
@@ -12,17 +12,12 @@
       color="basil"
       grow
     >
-        <v-tabs-items v-model="tab">
+      <v-tabs-items v-model="tab">
       <v-tab-item
         v-for="item in items"
         :key="item"
       >
-        <v-card
-          color="basil"
-          flat
-        >
-          <v-card-text>{{ text }}</v-card-text>
-        </v-card>
+        <ShowEvents />
       </v-tab-item>
       
     </v-tabs-items>
@@ -37,8 +32,12 @@
 </template>
 
 <script>
+import ShowEvents from './ShowEvents'
   export default {
     name: "Events",
+    components:{
+      ShowEvents,
+    },
     data () {
       return {
         tab: null,
