@@ -19,7 +19,7 @@
                   v-bind="attrs"
                   v-on="on"
                 >
-                 Register Now 
+                 Register Now
                 </v-btn>
               </template>
               <v-card>
