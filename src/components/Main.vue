@@ -4,10 +4,13 @@
         src="https://blog.doist.com/wp-content/uploads/2018/12/1_dhfgdsjn9F1OGm1VhOvesQ@2x.png"
       >
         <v-layout 
-        column
+        row
+        style="background-color: rgba(0,0,0,0.5)"
         >
           <v-container>
+            
             <v-row style="height: 80vh;" class="fill-height" justify="center" align="center">
+             <CountDown />
             <v-dialog
               v-model="dialog1"
               max-width="600px"
@@ -24,7 +27,7 @@
               </template>
               <v-card>
                 <v-card-title>
-                  <span class="headline">Please let us know if you will be able to make it.</span>
+                  <span class="headline">Fill this to register</span>
                 </v-card-title>
                 <v-card-text>
                   <v-container>
@@ -114,10 +117,12 @@
 </template>
 
 <script>
+import CountDown from './CountDown'
 import Events from './Events'
   export default {
     name: 'Main',
     components:{
+      CountDown,
       Events,
     },
 

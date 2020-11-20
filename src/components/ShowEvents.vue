@@ -2,7 +2,7 @@
   <v-sheet
     class="mx-auto"
     elevation="8"
-    
+    dark
   >
     <v-slide-group
       v-model="model"

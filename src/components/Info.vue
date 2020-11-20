@@ -1,8 +1,6 @@
 <template>
     <div>
         <v-btn
-        href="#"
-        target="_blank"
         text
         flat
          >

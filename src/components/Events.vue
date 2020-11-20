@@ -1,5 +1,5 @@
 <template>
-  <v-card class="events">
+  <v-card class="events" >
     <v-card-title class="text-center justify-center py-6">
       <h2 class="font-weight-bold display-2 blue--text">
         EVENTS
@@ -9,8 +9,8 @@
     <v-tabs
       v-model="tab"
       background-color="transparent"
-      color="basil"
       grow
+      dark
     >
       <v-tabs-items v-model="tab">
       <v-tab-item
@@ -56,7 +56,7 @@ import ShowEvents from './ShowEvents'
   position: relative;
   bottom: 0px;
   &:hover{
-    background-color: white !important;
+    background-color: black !important;
     position: absolute;
   }
 }
