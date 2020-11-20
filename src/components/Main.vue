@@ -110,7 +110,7 @@
             </v-dialog>
           </v-row> 
           </v-container>
-          <Events />  
+          <Events />
         </v-layout>
        
       </v-img>

@@ -1,11 +1,14 @@
 <template>
   <v-card class="events" >
-    <v-card-title class="text-center justify-center py-6">
+    <v-card-title class="justify-center">
       <h2 class="font-weight-bold display-2 blue--text">
         EVENTS
       </h2>
     </v-card-title>
-
+    <v-row class="justify-center">
+      <v-icon class="b-icon" color="white">mdi-arrow-down</v-icon>
+    </v-row>
+    
     <v-tabs
       v-model="tab"
       background-color="transparent"
@@ -58,6 +61,9 @@ import ShowEvents from './ShowEvents'
   &:hover{
     background-color: black !important;
     position: absolute;
+    .b-icon {
+      display: none;
+    }
   }
 }
 </style>
