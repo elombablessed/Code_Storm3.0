@@ -1,20 +1,26 @@
 <template>
   <v-card class="events" >
+    <v-row class="justify-center">
+      <v-icon class="b-icon" color="white">mdi-arrow-down</v-icon>
+    </v-row>
     <v-card-title class="justify-center">
       <h2 class="font-weight-bold display-2 blue--text">
         EVENTS
       </h2>
     </v-card-title>
-    <v-row class="justify-center">
-      <v-icon class="b-icon" color="white">mdi-arrow-down</v-icon>
-    </v-row>
-    
+
     <v-tabs
       v-model="tab"
       background-color="transparent"
       grow
       dark
     >
+      <v-tab
+        v-for="item in items"
+        :key="item"
+      >
+        {{ item }}
+      </v-tab>
       <v-tabs-items v-model="tab">
       <v-tab-item
         v-for="item in items"
@@ -24,12 +30,7 @@
       </v-tab-item>
       
     </v-tabs-items>
-      <v-tab
-        v-for="item in items"
-        :key="item"
-      >
-        {{ item }}
-      </v-tab>
+     
     </v-tabs>
   </v-card>
 </template>
@@ -61,6 +62,7 @@ import ShowEvents from './ShowEvents'
   &:hover{
     background-color: black !important;
     position: absolute;
+    width: 100vw;
     .b-icon {
       display: none;
     }
