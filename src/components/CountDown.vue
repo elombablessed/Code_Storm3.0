@@ -1,5 +1,6 @@
 <template>
   <div>
+    
     <flip-countdown deadline="2021-2-14 00:00:00" class="white--text"></flip-countdown>
   </div>
 </template>

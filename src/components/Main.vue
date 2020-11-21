@@ -2,7 +2,7 @@
       <v-img
         height="100vh"
         style="background-color: rgba(0,0,0,0.5)"
-        src="https://blog.doist.com/wp-content/uploads/2018/12/1_dhfgdsjn9F1OGm1VhOvesQ@2x.png"
+        src="https://i.imgur.com/V5IyNcF.gif"
       >
         <v-layout 
         row
