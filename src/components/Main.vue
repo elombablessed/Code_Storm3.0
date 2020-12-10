@@ -8,7 +8,7 @@
         row
         >
           <v-container>
-            
+
             <v-row style="height: 80vh;" class="fill-height" justify="center" align="center">
               <v-col style="padding-top: 200px !important;" cols="12">
                 <CountDown />
